@@ -20,6 +20,7 @@ import { HousingService } from '../housing.service';
   *ngFor="let housingLocation of filteredLocationList"
   [housingLocation]="housingLocation">
 </app-housing-location>
+<p>Hello Github</p>
 </section>
   `,
   styleUrls: ['./home.component.css']
